@@ -16,6 +16,7 @@ namespace Engleasy
         public static string nomeBanco = "banco_engleasy.db";
         public static string nomeChangelog = "changelog.txt";
         public static string caminhoBanco = caminho+@"\banco\";
+        public static string somPath = caminho+@"\..\..\..\Resources\Sounds\";
     }
 }
     

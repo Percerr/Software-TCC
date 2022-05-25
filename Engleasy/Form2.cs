@@ -29,9 +29,6 @@ namespace Engleasy
         public Gametwo()
         {
             InitializeComponent();
-
-
-
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -78,73 +75,74 @@ namespace Engleasy
             switch (a)
             {
                 case 0:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\0.wav";
+                    soundA.SoundLocation = Globais.somPath + @"0.wav";
+                   // ("" + Globais.caminhoBanco + Globais.nomeChangelog)
                     break;
                 case 1:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\1.wav";
+                    soundA.SoundLocation = Globais.somPath + @"1.wav";
                     break;
                 case 2:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\2.wav";
+                    soundA.SoundLocation = Globais.somPath + @"2.wav";
                     break;
                 case 3:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\3.wav";
+                    soundA.SoundLocation = Globais.somPath + @"3.wav";
                     break;
                 case 4:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\4.wav";
+                    soundA.SoundLocation = Globais.somPath + @"4.wav";
                     break;
                 case 5:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\5.wav";
+                    soundA.SoundLocation = Globais.somPath + @"5.wav";
                     break;
                 case 6:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\6.wav";
+                    soundA.SoundLocation = Globais.somPath + @"6.wav";
                     break;
                 case 7:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\7.wav";
+                    soundA.SoundLocation = Globais.somPath + @"7.wav";
                     break;
                 case 8:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\8.wav";
+                    soundA.SoundLocation = Globais.somPath + @"8.wav";
                     break;
                 case 9:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\9.wav";
+                    soundA.SoundLocation = Globais.somPath + @"9.wav";
                     break;
                 case 10:
-                    soundA.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\10.wav";
+                    soundA.SoundLocation = Globais.somPath + @"10.wav";
                     break;
             }
             switch (b)
             {
                 case 0:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\0.wav";
+                    soundB.SoundLocation = Globais.somPath + @"0.wav";
                     break;
                 case 1:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\1.wav";
+                    soundB.SoundLocation = Globais.somPath + @"1.wav";
                     break;
                 case 2:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\2.wav";
+                    soundB.SoundLocation = Globais.somPath + @"2.wav";
                     break;
                 case 3:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\3.wav";
+                    soundB.SoundLocation = Globais.somPath + @"3.wav";
                     break;
                 case 4:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\4.wav";
+                    soundB.SoundLocation = Globais.somPath + @"4.wav";
                     break;
                 case 5:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\5.wav";
+                    soundB.SoundLocation = Globais.somPath + @"5.wav";
                     break;
                 case 6:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\6.wav";
+                    soundB.SoundLocation = Globais.somPath + @"6.wav";
                     break;
                 case 7:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\7.wav";
+                    soundB.SoundLocation = Globais.somPath + @"7.wav";
                     break;
                 case 8:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\8.wav";
+                    soundB.SoundLocation = Globais.somPath + @"8.wav";
                     break;
                 case 9:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\9.wav";
+                    soundB.SoundLocation = Globais.somPath + @"9.wav";
                     break;
                 case 10:
-                    soundB.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\10.wav";
+                    soundB.SoundLocation = Globais.somPath + @"10.wav";
                     break;
             }
 
@@ -170,17 +168,17 @@ namespace Engleasy
             if (randomNumber == 0)
             {
                  ar = "+";
-                soundOp.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\+.wav";
+                soundOp.SoundLocation = Globais.somPath + @"+.wav";
 
             } else if  (randomNumber == 1)
             {
                 ar = "-";
-                soundOp.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\-.wav";
+                soundOp.SoundLocation = Globais.somPath + @"-.wav";
 
             } else if (randomNumber == 2)
             {
                 ar = "*";
-                soundOp.SoundLocation = @"C:\Users\pjeromel\source\repos\Engleasy\Engleasy\Resources\x.wav";
+                soundOp.SoundLocation = Globais.somPath + @"x.wav";
 
             }
             return ar;

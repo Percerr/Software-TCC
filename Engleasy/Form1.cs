@@ -80,7 +80,10 @@ namespace Engleasy
         {
             if (Globais.logado == true)
             {
-                MessageBox.Show("- O Objetivo deste jogo é encontrar dentre os objetos as palavras solicitadas no menu inferior antes que o tempo se esgote. \n- Cada palavra traduzida vale metade da pontuação.");
+                if (lbn_mypt1.Text == "0")
+                {
+                    MessageBox.Show("- O Objetivo deste jogo é encontrar dentre os objetos as palavras solicitadas no menu inferior antes que o tempo se esgote. \n- Cada palavra traduzida vale metade da pontuação.");
+                }
                 Gameone gameone = new Gameone();
                 gameone.ShowDialog();
             }
@@ -94,7 +97,10 @@ namespace Engleasy
         {
             if (Globais.logado == true)
             {
-                MessageBox.Show("- O Objetivo deste jogo é interpretar os audios e acertar o resultado da operação.");
+                if (lbn_mypt2.Text == "0")
+                {
+                    MessageBox.Show("- O Objetivo deste jogo é interpretar os audios e acertar o resultado da operação.");
+                }
                 Gametwo gametwo = new Gametwo();
                 gametwo.ShowDialog();
             }
@@ -108,8 +114,11 @@ namespace Engleasy
         {
             if (Globais.logado == true)
             {
+                if (lbn_mypt3.Text == "0")
+            { 
                 MessageBox.Show("- O Objetivo deste jogo é encontrar duas cartas correspondentes, cada figura possui um nome correspondente.");
-                Gamethree gamethree = new Gamethree();
+            }
+            Gamethree gamethree = new Gamethree();
                 gamethree.ShowDialog();
             }
             else
