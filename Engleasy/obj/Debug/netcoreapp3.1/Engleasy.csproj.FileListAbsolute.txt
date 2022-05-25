@@ -1,0 +1,14 @@
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.csproj.AssemblyReference.cache
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.Form1.resources
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.Gametwo.resources
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.F_Login.resources
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.F_NovoUsuario.resources
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.Gameone.resources
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.Gamethree.resources
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.Properties.Resources.resources
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.Rank.resources
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.csproj.GenerateResource.cache
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.AssemblyInfoInputs.cache
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.AssemblyInfo.cs
+C:\Users\pjeromel\source\repos\Engleasy\Engleasy\obj\Debug\netcoreapp3.1\Engleasy.csproj.CoreCompileInputs.cache

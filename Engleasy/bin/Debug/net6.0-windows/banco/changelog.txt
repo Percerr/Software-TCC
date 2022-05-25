@@ -1,0 +1,7 @@
+- ATUALIZAÇÃO 0.2:
+Acrescentadas mais 6 palavras no Game One
+
+
+- ATUALIZAÇÂO 0.1:
+Adicionado pontuação individual no Rank
+
